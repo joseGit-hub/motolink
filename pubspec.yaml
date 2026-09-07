@@ -1,0 +1,29 @@
+name: motolink
+description: MotoLink - smart helmet/bike companion app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  firebase_core: ^4.14.0
+  firebase_auth: ^6.6.1
+  cloud_firestore: ^6.9.0
+  firebase_database: ^12.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutterfire_cli: ^1.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/motolink_logo.png
